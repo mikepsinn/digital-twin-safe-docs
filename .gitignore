@@ -14,3 +14,13 @@ _book
 *.epub
 *.mobi
 *.pdf
+/output/
+/crew/
+litellm_uuid.txt
+/.env
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/.gitignore
+/.idea/digital-twin-safe.iml
+/.idea/modules.xml
+/.idea/php.xml
+/.idea/vcs.xml
