@@ -1,20 +1,41 @@
-# Node rules:
-## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-## Dependency directory
-## Commenting this out is preferred by some people, see
-## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
-node_modules
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+/.yarn
 
-# Book build output
-_book
+# testing
+/coverage
 
-# eBook build output
-*.epub
-*.mobi
-*.pdf
-/output/
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*
+!.env*.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+/.idea/
 /crew/
 litellm_uuid.txt
 /.env
